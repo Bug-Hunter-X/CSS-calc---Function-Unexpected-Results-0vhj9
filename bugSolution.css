@@ -1,0 +1,13 @@
+/* bugSolution.css */
+#container {
+  width: 500px;
+  /*Correct usage of calc()*/
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#element {
+  width: calc(100% - 40px); /* Corrected: Proper spacing and consistent units */
+  background-color: lightblue;
+}
+/*Addition of the container to show the proper use*/
